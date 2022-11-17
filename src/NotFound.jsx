@@ -8,7 +8,7 @@ export default function NotFound() {
     <>
         <Navbar/>
         <div className='text-center py-5 '>
-            <img src={err} alt=""  className='mb-3 d-block m-auto'/>
+            <img src={err} alt=""  className='mb-3 d-block m-auto img-fluid'/>
             <Link className='btn btn-success p-3 ' to={"home"}>Go To Home Page</Link>
         </div>
         
