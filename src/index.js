@@ -15,6 +15,7 @@ import NotFound from './NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 let routers = createBrowserRouter([{path:'/' ,element : <App/> , errorElement :<NotFound/> ,children:[
+  {path:"home" ,element : <App/>},
   {path:'Portfolio' , element :<Portfolio/> },
   {path:'About' , element :<About/> },
   {path:'Contact' , element :<Contact/> },
