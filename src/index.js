@@ -11,9 +11,10 @@ import Portfolio from './Portfolio';
 import About from './About';
 import Contact from './Contact';
 import Start from './Start';
+import NotFound from './NotFound';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-let routers = createBrowserRouter([{path:'/' ,element : <App/> ,errorElement : <h3>NOT Found</h3> ,children:[
+let routers = createBrowserRouter([{path:'/' ,element : <App/> , errorElement :<NotFound/> ,children:[
   {path:'Portfolio' , element :<Portfolio/> },
   {path:'About' , element :<About/> },
   {path:'Contact' , element :<Contact/> },
