@@ -3,8 +3,8 @@ import React from 'react'
 export default function Footer() {
   return (
     <section id='Footer' >
-        <div className="container py-4">
-            <div className="row py-4 text-white text-center g-4">
+        <div className="container py-2">
+            <div className="row py-2 text-white text-center g-4">
                 <div className="col-xl-4">
                     <div>
                         <p className="fs-3 fw-bold">LOCATION</p>
@@ -34,8 +34,8 @@ export default function Footer() {
                 </div>
             </div>
         </div>
-        <div className='bg-black '>
-            <p className='text-white text-center py-3'>Copyright © Your Website 2021</p>
+        <div className='bg-black  py-1'>
+            <p className='text-white text-center py-2 '>Copyright © Your Website 2021</p>
         </div>
     </section >
   )

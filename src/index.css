@@ -47,10 +47,6 @@ h1::before
 {
   border: #2C3E50 2px solid;
 }
-nav
-{
-  z-index: 100000;
-}
 nav , #Footer
 {
   background: #2C3E50!important;
@@ -136,8 +132,8 @@ textarea:focus
 }
 .icon
 {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   border: #fff solid 0.5px;
   border-radius: 30px;
   display: flex;

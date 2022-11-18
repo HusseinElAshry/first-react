@@ -12,7 +12,7 @@ export default function Portfolio() {
     <section id='Portfolio' className='py-5'>
       <div className="container py-5">
         <h1 className='text-center position-relative fw-bold dark py-4'>PORTFOLIO <span className=' position-absolute start-50 translate-middle-x'><i className="fa-solid fa-star "></i></span></h1>
-        <div className="row py-5 gap-3 justify-content-center align-items-center">
+        <div className="row py-4 gap-3 justify-content-center align-items-center">
 
         <div className="col-xl-3 g-2 col-lg-4 ">
             <div className='position-relative layer '>
